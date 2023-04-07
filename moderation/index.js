@@ -21,6 +21,7 @@ app.post("/events", async (req, res) => {
       },
     });
   }
+  res.send({});
 });
 app.listen(4003, () => {
   console.log("listening on port 4003");
